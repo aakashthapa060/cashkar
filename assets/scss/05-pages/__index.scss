@@ -1,6 +1,4 @@
-img{
-    width: 400px;
-}
+
 .hero_page{
     width: 1150px;
     height: 600px;
@@ -12,7 +10,7 @@ img{
         width: auto;
         height: auto;
         h2{
-            font-size: 50px;
+            font-size: 45px;
             line-height: 60px;
             margin-bottom: 15px;
         }
@@ -24,6 +22,109 @@ img{
             a{
                 padding: 10px 25px;
                 background-color: $primary-green;
+            }
+        }
+    }
+    &_img{
+        width: auto;
+        height: auto;
+        z-index: -1;
+        img{
+            width: 400px;
+        }
+    }
+}
+
+.call_back_section{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_container{
+        position: relative;
+        width: 1150px;
+        height: 100%;
+        margin: 0 auto;
+        .call_back_section_title{
+            margin-top: 40px;
+            margin-bottom: 70px;
+            h2{
+                font-size: 30px;
+            }
+        }
+        .call_back_section_content{
+            width: 100%;
+            height: 300px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 40px;
+            .card{
+                width: 100%;
+                height: 100%;
+                border: 1px solid #f1f1f1;
+                border-radius: 10px;
+                @include flexbox(center,center,row);
+                &_container{
+                    position: relative;
+                    width: 90%;
+                    height: 90%;
+                    .card_position{
+                        width: 50px;
+                        height: 50px;
+                        margin-bottom: 30px;
+                        background-color: $primary-green;
+                        border-radius: 5px;
+                        @include flexbox(center,center,row);
+                        p{
+                            font-size: 20px;
+                            color: #fff;
+                        }
+                    }
+                    .card_title{
+                        h2{
+                            font-size: 24px;
+                            color: #111;
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .card_content{
+                        p{
+                            font-size: 15px;
+                            color: #696969;
+                            line-height: 24px;
+                        }
+                    }
+                    .card_button{
+                        position: absolute;
+                        bottom: 0;
+                        a{
+                            font-size: 14px;
+                            transition: 0.5s ease;
+                        }
+                        a:hover{
+                            padding: 2px 4px;
+                            border-bottom: 1px dotted $primary-green;
+                        }
+                    }
+                }
+            }
+            .card2{
+                .card_container{
+                    .card_position{
+                        background-color: $primary-blue;
+                    }
+                }
+            }
+            .card3{
+                .card_container{
+                    .card_position{
+                        background-color: $primary-red;
+                    }
+                }
             }
         }
     }

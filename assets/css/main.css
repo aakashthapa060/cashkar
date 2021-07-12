@@ -7,6 +7,10 @@
   font-family: "karla", sans-serif;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 h1, h2, h3, h4, h5, h, p {
   font-size: 16px;
 }
@@ -232,6 +236,7 @@ a {
 }
 
 .nav_items .nav_first_item ul li ol {
+  z-index: 10;
   background-color: #fff;
   position: absolute;
   top: 40px;
@@ -269,10 +274,6 @@ a {
   color: #696969;
 }
 
-img {
-  width: 400px;
-}
-
 .hero_page {
   width: 1150px;
   height: 600px;
@@ -288,7 +289,7 @@ img {
 }
 
 .hero_page_title h2 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 60px;
   margin-bottom: 15px;
 }
@@ -301,5 +302,119 @@ img {
 .hero_page_title .hero_buttons a {
   padding: 10px 25px;
   background-color: #07a807;
+}
+
+.hero_page_img {
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.hero_page_img img {
+  width: 400px;
+}
+
+.call_back_section {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call_back_section_container {
+  position: relative;
+  width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.call_back_section_container .call_back_section_title {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.call_back_section_container .call_back_section_title h2 {
+  font-size: 30px;
+}
+
+.call_back_section_container .call_back_section_content {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+}
+
+.call_back_section_container .call_back_section_content .card {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.call_back_section_container .call_back_section_content .card_container {
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+.call_back_section_container .call_back_section_content .card_container .card_position {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  background-color: #07a807;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.call_back_section_container .call_back_section_content .card_container .card_position p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.call_back_section_container .call_back_section_content .card_container .card_title h2 {
+  font-size: 24px;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.call_back_section_container .call_back_section_content .card_container .card_content p {
+  font-size: 15px;
+  color: #696969;
+  line-height: 24px;
+}
+
+.call_back_section_container .call_back_section_content .card_container .card_button {
+  position: absolute;
+  bottom: 0;
+}
+
+.call_back_section_container .call_back_section_content .card_container .card_button a {
+  font-size: 14px;
+  transition: 0.5s ease;
+}
+
+.call_back_section_container .call_back_section_content .card_container .card_button a:hover {
+  padding: 2px 4px;
+  border-bottom: 1px dotted #07a807;
+}
+
+.call_back_section_container .call_back_section_content .card2 .card_container .card_position {
+  background-color: #556fe2;
+}
+
+.call_back_section_container .call_back_section_content .card3 .card_container .card_position {
+  background-color: #ff4646;
 }
 /*# sourceMappingURL=main.css.map */
