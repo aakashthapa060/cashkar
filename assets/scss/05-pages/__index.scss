@@ -133,7 +133,7 @@
 
 .whyUs{
     width: 100%;
-    height: 600px;
+    height: 650px;
     // background-color: #fff;
     @include flexbox(center,center,row);
     .whyUs_container{
@@ -221,6 +221,73 @@
                             background-color: $primary-black;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+.testi_section{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    @include flexbox(center,center,row);
+    &_container{
+        position: relative;
+        overflow: hidden;
+        width: 1150px;
+        height: 100%;
+        .testi_section_title{
+            margin: 40px 0px 100px 0px;
+            h2{
+                font-size: 30px;
+            }
+        }
+        .testi_content{
+            
+            width: 200%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            .card{
+                position: relative;
+                overflow: hidden;
+                width: 600px;
+                height: 300px;
+                border: 1px solid #f1f1f1;
+                border-radius: 5px;
+                display: flex;
+
+                .user-img{
+                    height: 100%;
+                    img{
+                        height: 100%;
+                    }
+                }
+                .user-data{
+                    padding: 20px;
+
+                    .user-review{
+                        h2{
+                            font-size: 18px;
+                            font-size: 700;
+                            line-height: 30px;
+                        }
+                    }
+                    .user-info{
+                        position: absolute;
+                        bottom: 10px;
+                        h2{
+                            font-size: 20px;
+                            color: $primary-blue;
+                            margin-bottom: 5px;
+                        }
+                        p{
+                            color: #696969;
+                        }
+
+                    }
+
                 }
             }
         }

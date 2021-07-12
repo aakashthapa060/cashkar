@@ -420,7 +420,7 @@ a {
 
 .whyUs {
   width: 100%;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -527,5 +527,80 @@ a {
 
 .whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card3 .card_container .card-img {
   background-color: #242424;
+}
+
+.testi_section {
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.testi_section_container {
+  position: relative;
+  overflow: hidden;
+  width: 1150px;
+  height: 100%;
+}
+
+.testi_section_container .testi_section_title {
+  margin: 40px 0px 100px 0px;
+}
+
+.testi_section_container .testi_section_title h2 {
+  font-size: 30px;
+}
+
+.testi_section_container .testi_content {
+  width: 200%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testi_section_container .testi_content .card {
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  display: flex;
+}
+
+.testi_section_container .testi_content .card .user-img {
+  height: 100%;
+}
+
+.testi_section_container .testi_content .card .user-img img {
+  height: 100%;
+}
+
+.testi_section_container .testi_content .card .user-data {
+  padding: 20px;
+}
+
+.testi_section_container .testi_content .card .user-data .user-review h2 {
+  font-size: 18px;
+  font-size: 700;
+  line-height: 30px;
+}
+
+.testi_section_container .testi_content .card .user-data .user-info {
+  position: absolute;
+  bottom: 10px;
+}
+
+.testi_section_container .testi_content .card .user-data .user-info h2 {
+  font-size: 20px;
+  color: #556fe2;
+  margin-bottom: 5px;
+}
+
+.testi_section_container .testi_content .card .user-data .user-info p {
+  color: #696969;
 }
 /*# sourceMappingURL=main.css.map */
