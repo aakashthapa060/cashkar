@@ -1,0 +1,30 @@
+img{
+    width: 400px;
+}
+.hero_page{
+    width: 1150px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_title{
+        width: auto;
+        height: auto;
+        h2{
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 15px;
+        }
+        p{
+            color: #696969;
+            margin-bottom: 40px;
+        }
+        .hero_buttons{
+            a{
+                padding: 10px 25px;
+                background-color: $primary-green;
+            }
+        }
+    }
+}
