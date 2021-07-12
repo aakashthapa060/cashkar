@@ -417,4 +417,115 @@ a {
 .call_back_section_container .call_back_section_content .card3 .card_container .card_position {
   background-color: #ff4646;
 }
+
+.whyUs {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.whyUs .whyUs_container {
+  width: 1150px;
+  height: 100%;
+}
+
+.whyUs .whyUs_container .whyUs_section_title {
+  margin: 50px 0px;
+}
+
+.whyUs .whyUs_container .whyUs_section_title h2 {
+  font-size: 30px;
+}
+
+.whyUs .whyUs_container .whyUs_section_content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_img img {
+  width: 550px;
+  transform: rotate(-90deg);
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item {
+  width: auto;
+  height: auto;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card {
+  width: 500px;
+  height: 80px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 5px 5px 10px rgba(216, 216, 216, 0.207);
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container {
+  width: 480px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container .card-img {
+  width: 60px;
+  height: 60px;
+  background-color: #556fe2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container .card-img img {
+  width: 30px;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container .card_content {
+  margin-left: 20px;
+  width: 400px;
+  height: auto;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container .card_content .card_title {
+  margin-bottom: 5px;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container .card_content .card_title h2 {
+  font-size: 18px;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container .card_content .card_info {
+  width: auto;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card .card_container .card_content .card_info p {
+  font-size: 12px;
+  color: #696969;
+  line-height: 20px;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card2 .card_container .card-img {
+  background-color: #ff4646;
+}
+
+.whyUs .whyUs_container .whyUs_section_content .whyUs_section_item .card3 .card_container .card-img {
+  background-color: #242424;
+}
 /*# sourceMappingURL=main.css.map */
